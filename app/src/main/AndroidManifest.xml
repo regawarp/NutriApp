@@ -8,14 +8,69 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppThemeNoActionBar">
+        <activity
+            android:name=".PilarGiziActivity"
+            android:label="@string/empat_pilar_gizi_seimbang"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ContohMenuActivity"
+            android:label="@string/contoh_menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LemakActivity"
+            android:label="@string/minyak_dan_lemak"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SusuActivity"
+            android:label="@string/susu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BuahActivity"
+            android:label="@string/buah_buahan"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SayuranActivity"
+            android:label="@string/sayuran"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NabatiActivity"
+            android:label="@string/nabati"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HewaniActivity"
+            android:label="@string/hewani"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".KarbohidratActivity"
+            android:label="@string/karbohidrat"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HasilBmiActivity"
+            android:label="@string/hasil_hitung"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BahanMakananActivity"
+            android:label="@string/bahan_makanan_penukar"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PesanGiziActivity"
+            android:label="@string/sepuluh_pesan_gizi_seimbang"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HitungBmiActivity"
+            android:label="@string/hitung_bmi_dan_kalori"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppThemeNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

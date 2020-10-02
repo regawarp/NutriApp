@@ -1,3 +1,100 @@
 <resources>
     <string name="app_name">NutriApp</string>
+    <string name="menu">Menu</string>
+    <string name="hitung_bmi_dan_kalori"><![CDATA[Hitung BMI & Kalori]]></string>
+    <string name="empatbelas_pesan_gizi_seimbang">14 Pesan Gizi Seimbang</string>
+    <string name="bahan_makanan_penukar">Bahan Makanan Penukar</string>
+    <string name="karbohidrat">Karbohidrat</string>
+    <string name="susu">Susu</string>
+    <string name="hewani">Hewani</string>
+    <string name="minyak_dan_lemak"><![CDATA[Minyak & Lemak]]></string>
+    <string name="nabati">Nabati</string>
+    <string name="sayuran">Sayuran</string>
+    <string name="buah_buahan">Buah-buahan</string>
+    <string name="data_umum">Data Umum</string>
+    <string name="berat_badan">Berat Badan</string>
+    <string name="masukkan_berat_badan_anda">Masukkan Berat Badan Anda</string>
+    <string name="kg">kg</string>
+    <string name="tinggi_badan">Tinggi Badan</string>
+    <string name="usia">Usia</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="cm">cm</string>
+    <string name="tahun">tahun</string>
+    <string name="masukkan_tinggi_badan_anda">Masukkan Tinggi Badan Anda</string>
+    <string name="masukkan_usia_anda">Masukkan Usia Anda</string>
+    <string name="pilih_jenis_kelamin">Pilih Jenis Kelamin</string>
+    <string name="v">v</string>
+    <string name="hasil_anda">Hasil Anda</string>
+    <string name="bmi_ttk_dua">BMI :</string>
+    <string name="kategori_ttk_dua">Kategori :</string>
+    <string name="kebutuhan_kalori_harian_ttkdua">Kebutuhan Kalori Harian :</string>
+    <string name="menu_untuk_anda">Menu Untuk Anda</string>
+    <string name="tidak_boleh_kosong">Tidak Boleh Kosong</string>
+    <string name="hasil_hitung">Hasil Hitung</string>
+    <string name="kurus">Kurus</string>
+    <string name="normal">Normal</string>
+    <string name="gemuk">Gemuk</string>
+    <string name="satu_satuan_penukar_eq">1 Satuan Penukar =</string>
+    <string name="empat_gram_protein">4 gram Protein</string>
+    <string name="patpuluh_gram_kh">40 gram Kh</string>
+    <string name="seratustujuhpuluhlima_kalori">175 Kalori</string>
+    <string name="bahan_penukar_karbohidrat">Bahan Penukar Karbohidrat</string>
+    <string name="keterangan_ttkdua">Keterangan :</string>
+    <string-array name="jk_array">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rendah_lemak">Rendah Lemak</string>
+    <string name="bahan_penukar_protein_hewani_rendah_lemak">Bahan Penukar Protein Hewani Rendah Lemak</string>
+    <string name="bahan_penukar_protein_hewani_lemak_sedang">Bahan Penukar Protein Hewani Lemak Sedang</string>
+    <string name="bahan_penukar_protein_hewani_tinggi_lemak">Bahan Penukar Protein Hewani Tinggi Lemak</string>
+    <string name="bahan_penukar_protein_nabati">Bahan Penukar Protein Nabati</string>
+    <string name="bahan_penukar_sayuran_a">Bahan Penukar Sayuran A</string>
+    <string name="bahan_penukar_sayuran_b">Bahan Penukar Sayuran B</string>
+    <string name="bahan_penukar_sayuran_c">Bahan Penukar Sayuran C</string>
+    <string name="bahan_penukar_buah_dan_gula">Bahan Penukar Buah dan Gula</string>
+    <string name="bahan_penukar_minyak_dan_lemak_jenuh"><![CDATA[Bahan Penukar Minyak & Lemak Jenuh]]></string>
+    <string name="bahan_penukar_minyak_dan_lemak_tidak_jenuh"><![CDATA[Bahan Penukar Minyak & Lemak Tidak Jenuh]]></string>
+    <string name="bahan_penukar_susu_rendah_lemak">Bahan Penukar Susu Rendah Lemak</string>
+    <string name="bahan_penukar_susu_tanpa_lemak">Bahan Penukar Susu Tanpa Lemak</string>
+    <string name="bahan_penukar_susu_tinggi_lemak">Bahan Penukar Susu Tinggi Lemak</string>
+    <string name="lima_puluh_kalori">50 Kalori</string>
+    <string name="tujuh_gram_protein">7 gram Protein</string>
+    <string name="dua_gram_lemak">2 gram Lemak</string>
+    <string name="lima_gram_lemak">5 gram Lemak</string>
+    <string name="tujuh_puluh_lima_kalori">75 Kalori</string>
+    <string name="tiga_belas_gram_lemak">13 gram Lemak</string>
+    <string name="seratus_lima_puluh_kalori">150 Kalori</string>
+    <string name="lima_gram_protein">5 gram Protein</string>
+    <string name="tiga_gram_lemak">3 gram Lemak</string>
+    <string name="tujuh_gram_kh">7 gram Kh</string>
+    <string name="bebas_dimakan">Bebas dimakan, kandungan kalorinya dapat diabaikan.</string>
+    <string name="satu_satuan_penukar_seratus_gram_eq">1 Satuan Penukar (100 g) =</string>
+    <string name="satu_gram_protein">1 gram Protein</string>
+    <string name="lima_gram_kh">5 gram Kh</string>
+    <string name="dua_puluh_lima_kalori">25 Kalori</string>
+    <string name="sepuluh_gram_kh">10 gram Kh</string>
+    <string name="dua_belas_kh">12 Kh</string>
+    <string name="enam_gram_lemak">6 gram Lemak</string>
+    <string name="sepuluh_gram_lemak">10 gram Lemak</string>
+    <string name="sarapan">Sarapan</string>
+    <string name="makan_malam">Makan Malam</string>
+    <string name="selingan_dua">Selingan 2</string>
+    <string name="makan_siang">Makan Siang</string>
+    <string name="selingan_satu">Selingan 1</string>
+    <string name="contoh_menu">Contoh Menu</string>
+    <string name="table_bmi_untuk_indonesia">Tabel BMI Untuk Indonesia</string>
+    <string name="kategori">Kategori</string>
+    <string name="bmi">BMI</string>
+    <string name="kurang_delapan_belas"><![CDATA[< 18.5]]></string>
+    <string name="lebih_dua_lima"><![CDATA[> 25.0]]></string>
+    <string name="delapan_belas_sampe_dua_lima">18.5 - 25.0</string>
+    <string name="before">Before</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="empat_pilar_gizi_seimbang">4 Pilar Gizi Seimbang</string>
+    <string name="sepuluh_pesan_gizi_seimbang">10 Pesan Gizi Seimbang</string>
 </resources>

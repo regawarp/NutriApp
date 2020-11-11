@@ -59,31 +59,7 @@
             android:paddingEnd="15dp"
             android:visibility="gone">
 
-            <!--<TextView-->
-            <!--android:id="@+id/tv_no"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="1"-->
-            <!--android:textColor="@color/colorBlack"-->
-            <!--android:textSize="50sp"-->
-            <!--android:textStyle="bold" />-->
 
-            <!--<TextView-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="&quot;"-->
-            <!--android:textColor="@color/colorLightGreen"-->
-            <!--android:textSize="50sp" />-->
-
-            <!--<TextView-->
-            <!--android:id="@+id/tv_title"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:gravity="center_vertical"-->
-            <!--android:paddingStart="5dp"-->
-            <!--android:text="Biasakan mengkonsumsi lauk pauk yang berprotein tinggi"-->
-            <!--android:textColor="@color/colorPrimary"-->
-            <!--android:textSize="20sp" />-->
         </LinearLayout>
 
         <LinearLayout

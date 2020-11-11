@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppThemeNoActionBar">
         <activity
+            android:name=".FaktorPengaruhActivity"
+            android:label="@string/faktor_pengaruh_anemia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ResikoGejalaActivity"
+            android:label="@string/resiko_dan_gejala_anemia"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DefinisiAnemiaActivity"
+            android:label="@string/anemia"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".PilarGiziActivity"
             android:label="@string/empat_pilar_gizi_seimbang"
             android:theme="@style/AppTheme" />

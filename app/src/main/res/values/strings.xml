@@ -97,4 +97,23 @@
     <string name="next">Next</string>
     <string name="empat_pilar_gizi_seimbang">4 Pilar Gizi Seimbang</string>
     <string name="sepuluh_pesan_gizi_seimbang">10 Pesan Gizi Seimbang</string>
+    <string name="definisi_anemia">Definisi Anemia</string>
+    <string name="anemia">Anemia</string>
+    <string name="definisi_anemia_defisiensi_besi">Definisi Anemia Defisiensi Besi</string>
+    <string name="mengapa_anemia_p_dicegah">Mengapa Anemia Penting Dicegah?</string>
+    <string name="resiko_dan_gejala_anemia"><![CDATA[Resiko & Gejala Anemia]]></string>
+    <string name="kelompok_berisiko">Kelompok Berisiko</string>
+    <string name="content_risiko_1"><b>1.</b> Badan lemah dan Lelah, kurang energi, kurang nafsu makan, daya konsentrasi menurun</string>
+    <string name="faktor_pengaruh_anemia">Faktor Pengaruh Anemia</string>
+    <string name="pencegahan_anemia">Pencegahan Anemia</string>
+    <string name="makanan_pencegah_anemia">Makanan Pencegah Anemia</string>
+    <string name="gejala_anemia">Gejala Anemia</string>
+    <string name="menstruasi">Menstruasi</string>
+    <string name="status_gizi">Status Gizi</string>
+    <string name="asupan_gizi_yang_kurang">Asupan Gizi yang Kurang dari Kebutuhan</string>
+    <string name="pola_makan">Pola Makan</string>
+    <string name="pengetahuan">Pengetahuan</string>
+    <string name="riwayat_penyakit">Riwayat Penyakit</string>
+    <string name="dampak_anemia">Dampak Anemia</string>
+    <string name="aktivitas_fisik">Aktivitas Fisik</string>
 </resources>

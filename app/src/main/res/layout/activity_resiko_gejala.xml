@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3F4"
+    tools:context=".ResikoGejalaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/quote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-14dp"
+                    android:text="&quot;"
+                    android:textColor="#CBE4959C"
+                    android:textSize="72sp" />
+
+                <TextView
+                    android:id="@+id/tv_judul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/quote"
+                    android:text="@string/kelompok_berisiko"
+                    android:textColor="@color/colorRed"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-26dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/content_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Kelompok yang berisiko tinggi menderita adalah wanita usia subur, ibu hamil, anak usia sekolah dan remaja. Meskipun demikian kelompok pria juga tidak terlepas dari kejadian anemia. Anemia merupakan masalah gizi yang paling utama di Indonesia." />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/resiko_slide1" />
+                    </LinearLayout>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Anemia lebih sering terjadi pada remaja perempuan dibandingkan dengan remaja laki-laki. Hal ini dikarenakan remaja putri kehilangan zat besi (Fe) saat menstruasi sehingga membutuhkan lebih banyak asupan zat besi (Fe). Kebiasaan remaja putri yang juga saat ini mayoritas ingin tampil dengan penampilan tubuh yang ramping menjadikan remaja tersebut membatasi asupan makanan hariannya khususnya makanan tinggi Fe yang mengakibatkan remaja putri mudah terserang anemia " />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/content_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/content_risiko_1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/resiko_slide2_1" />
+
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="match_parent" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/resiko_slide_2_2" />
+                    </LinearLayout>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Sakit Kepala \n
+3. Mudah Terinfeksi Penyakit\n
+4. Pandangan berkunang kunang terutama bila bangkit dari duduk.\n
+5. Wajah, selaput lendir kelopak mata, bibir, dan kuku penderita tampak pucat. \n
+6. Jika anemia sangat berat, dapat berakibat penderita sesak napas bahkan lemah jantung\n \n
+Gejala-gejala yang disebabkan oleh pasokan oksigen yang tidak mencukupi kebutuhan ini, bervariasi. Gejala lemah, letih, lesu, lelah, lunglai atau yang biasa disebut 5L juga merupakan salah satu gejala Anemia. " />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_prev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/button_red_selector"
+                    android:text="@string/previous"
+                    android:textColor="@drawable/button_red_selector" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/button_red_selector"
+                    android:text="@string/next"
+                    android:textColor="@drawable/button_red_selector" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ornamen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/or" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3F4"
+    tools:context=".FaktorPengaruhActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="1"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_judul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/tv_number"
+                    android:gravity="center_vertical"
+                    android:text="Asupan Gizi yang Kurang dari Kebutuhan"
+                    android:textColor="@color/colorRed"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/layout_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/img_layout_one"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/tujuh_slide1" />
+
+                        <View
+                            android:layout_width="8dp"
+                            android:layout_height="match_parent" />
+
+                        <com.codesgood.views.JustifiedTextView
+                            android:id="@+id/tv_layout_one_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Anemia yang terjadi pada remaja putri disebabkan masa remaja merupakan masa pertumbuhan yang membutuhkan zat gizi lebih tinggi termasuk zat besi. Selain itu pada masa remaja, seseorang akan mengalami menstruasi. " />
+                    </LinearLayout>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/tv_layout_one_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Saat menstruasi terjadi pengeluaran darah dari dalam tubuh. Hal ini menyebabkan zat besi yang terkandung dalam hemoglobin ikut terbuang. Semakin lama menstruasi berlangsung, maka semakin banyak pengeluaran dari tubuh. Hal ini mengakibatkan pengeluaran besi meningkat dan keseimbangan zat besi dalam tubuh terganggu.
+\n\nMenstruasi menyebabkan wanita kehilangan besi hingga dua kali jumlah kehilangan besi laki-laki. Apabila darah yang keluar saat menstruasi cukup banyak, berarti jumlah zat besi yang hilang dari tubuh juga cukup besar. Setiap orang mengalami kehilangan darah dalam jumlah yang berbeda-beda.
+" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/picture1" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Salah satu cara untuk mengetahui status gizi seseorang adalah dengan pengukuran antropometri. IMT (indeks massa tubuh) merupakan cara pengukuran status gizi secara langsung yang berkontribusi secara signifikan dalam anemia. IMT pada orang dengan anemia secara signifikan lebih rendah dibandingkan dengan IMT pada orang tanpa anemia." />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/or10" />
+
+                    </LinearLayout>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Remaja yang memiliki IMT kurus berisiko anemia 1,4 kali lebih besar dibandingkan remaja yang memiliki IMT normal dan gemuk. Hal ini disebabkan karena asupan gizi dalam tubuh kurang dan juga menyebabkan kebutuhan zat gizi dalam tubuh tidak terpenuhi terutama kebutuhan gizi seperti zat besi dimana zat besi merupakan salah satu komponen terpenting dalam pembentukan hemoglobin, dengan kurangnya asupan zat besi dalam tubuh akan menyebabkan berkurangnya bahan pembentukan sel darah merah, sehingga sel darah merah tidak dapat melakukan fungsinya dalam mensuplai oksigen yang akan mengakibatkan tejadinya anemia." />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/tujuh_slide4" />
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Pola dan gaya hidup modern membuat remaja cenderung lebih menyukai makan di luar rumah bersama kelompoknya. Remaja putri sering mempraktikkan diet dengan cara yang kurang benar seperti melakukan pantangan-pantangan, membatasi atau mengurangi frekuensi makan untuk mencegah kegemukan. Pada umumnya remaja mempunyai kebiasaan makan yang kurang baik. Beberapa remaja khususnya remaja putri sering mengkonsumsi makanan dalam jumlah yang tidak seimbang dibandingkan dengan kebutuhannya karena takut kegemukan dan menyebut makan bukan hanya dalam konteks mengkonsumsi makanan pokok saja tetapi makanan ringan juga dikategorikan sebagai makan." />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_four"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/tv_layout_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Para penderita anemia seharusnya perlu mengkonsumsi makanan yang banyak mengandung zat besi atau minum tablet Fe tambah darah, namun hal itu juga tidak dilakukan karena mereka belum mengetahui secara jelas mengenai anemia. Pengetahuan yang dimaksud adalah pengetahuan putri mengenai pengertian anemia itu sendiri, dimulai dari tanda-tanda orang yang menderita anemia penyebab, akibat dan penanggulangannya bagi penderita anemia serta pengetahuan sumber-sumber Fe dalam makanan." />
+
+                    <ImageView
+                        android:id="@+id/img_layout_four"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/tujuh_slide5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/layout_five"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/tujuh_slide7" />
+                    <View
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Anemia dapat mempengaruhi tingkat kesegaran jasmani seseorang. Performa aktivitas akan menurun sehubungan dengan terjadinya penurunan konsentrasi hemoglobin dan jaringan yang mengandung zat besi. Zat besi dalam hemoglobin, ketika jumlahnya berkurang, secara ekstrim dapat mengubah aktivitas kerja dengan menurunkan transpor oksigen." />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_prev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/button_red_selector"
+                    android:text="@string/previous"
+                    android:textColor="@drawable/button_red_selector" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/button_red_selector"
+                    android:text="@string/next"
+                    android:textColor="@drawable/button_red_selector" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ornamen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/or" />
+    </LinearLayout>
+
+</ScrollView>

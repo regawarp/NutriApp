@@ -12,4 +12,6 @@
     <color name="colorKurus">#0277BD</color>
     <color name="colorNormal">#21A442</color>
     <color name="colorGemuk">#C62828</color>
+    <color name="colorRed">#C22B30</color>
+    <color name="ColorDarkerRed">#B41218</color>
 </resources>

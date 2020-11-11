@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3F4"
+    tools:context=".DefinisiAnemiaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/quote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-14dp"
+                    android:text="&quot;"
+                    android:textColor="#CBE4959C"
+                    android:textSize="72sp" />
+
+                <TextView
+                    android:id="@+id/tv_judul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/quote"
+                    android:text="@string/definisi_anemia"
+                    android:textColor="@color/colorRed"
+                    android:textSize="25sp"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-26dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="10dp"
+                    android:src="@drawable/def_anemia_slide1"
+                    android:visibility="gone" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Anemia merupakan sebuah kondisi jumlah dan ukuran sel darah merah, atau konsentrasi hemoglobin (Hb) berada di bawah batas normal dan akibatnya merusak kemampuan sel darah merah untuk mengangkut oksigen ke seluruh tubuh. Protein membantu sel-sel darah merah membawa oksigen dari paru-paru ke seluruh tubuh. Anemia menjadi indikator gizi buruk dan kesehatan yang buruk." />
+
+                <ImageView
+                    android:id="@+id/img_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:padding="10dp"
+                    android:src="@drawable/def_anemia_slide1" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_prev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/button_red_selector"
+                    android:text="@string/previous"
+                    android:textColor="@drawable/button_red_selector" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/button_red_selector"
+                    android:text="@string/next"
+                    android:textColor="@drawable/button_red_selector" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ornamen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/or" />
+    </LinearLayout>
+
+</ScrollView>
